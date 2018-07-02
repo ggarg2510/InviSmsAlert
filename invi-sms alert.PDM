@@ -1,0 +1,125 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\New Folder
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\comctl32.ocx=
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\comct332.ocx=
+C:\Windows\System32\mscomct2.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\invi-sms alert.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=Yes
+C:\Windows\System32\mscomct2.ocx=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\MSCHRT20.OCX=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\COMCT232.OCX=Yes
+C:\Windows\System32\comct332.ocx=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\invi-sms alert.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSCHRT20.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\COMCT232.OCX=$(WinSysPath)
+C:\Windows\System32\comct332.ocx=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\invi-sms alert.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=invi-sms alert
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=invi-sms alert
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|invi-sms alert]
+Icon1="invi-sms alert.exe"
+Title1=invi-sms alert
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\New Folder
+ProjectFolder=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY
+ServerSideCab=
+File1=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\New Folder\setup.exe
+File2=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\New Folder\Setup.Lst
+File3=D:\INVI\INVI-SMS_ALERT - Copy_10_MAY\New Folder\invi-sms alert.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=D:\New folder
